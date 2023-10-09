@@ -31,6 +31,32 @@ dt {
     color: blue;
 }
 
+button {
+    color: white;
+    background: blue;
+    height: 30px;
+    width: 100px;
+    margin: 10px 0 5px 0;
+    border-radius: 8px;
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+button:hover {
+    font-weight: bold;
+    text-decoration: none;
+    border: 0px;
+    background-image: linear-gradient(170deg,
+            black,
+            #0044ff,
+            black);
+    border-radius: 8px;
+    color: #fff;
+    padding: 7px;
+    cursor: pointer;
+    transform: .3s;
+}
+
 footer {
     background-color: blue;
     border-radius: 10px;
